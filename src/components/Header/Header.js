@@ -17,7 +17,7 @@ const Header = () => {
         <div>
             <Navbar bg="dark" fixed="top" expand="lg">
   <Container fluid>
-    <Navbar.Brand  style={{marginLeft:4}} href="#"><img style={{height:80 , width:190 }}  src={f} alt="" /></Navbar.Brand>
+    <Navbar.Brand  style={{marginLeft:4}} ><img style={{height:80 , width:190 }}  src={f} alt="" /></Navbar.Brand>
     <Navbar.Toggle  aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
@@ -25,30 +25,12 @@ const Header = () => {
         style={{ maxHeight: '100px'  }}
         navbarScroll
       >
-          <Nav.Link style={{ color:'white' }} as={Link} to='/home'  href='#/home'>{element}</Nav.Link>
-        <Nav.Link style={{ color:'white' }}  href='#/home'>About Us</Nav.Link>
+          <Nav.Link style={{ color:'white' }} as={Link} to='/home'  >{element}</Nav.Link>
+        <Nav.Link style={{ color:'white' }} as={Link} to='/aboutus'   >About Us</Nav.Link>
         
-        <NavDropdown as={Link} to='/courses'
-          id="nav-dropdown-dark-example"
-          title={
-            <span style={{color:'white'}}>Courses</span>
-        }
-        
-          menuVariant="dark"
-        >
-          <NavDropdown.Item href='#/shirt'>Personal Trainer Course</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">SIS30315 Certificate III in Fitness</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">SIS40215 Certificate IV in Fitness</NavDropdown.Item>
-           <NavDropdown.Item href="#action/3.2">LEAN Nutrition Tech and Coaching</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Optimising Recovery After Exercise</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Advanced Squatting Techniques</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">CEC Courses and Professional Development Workshops</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Professional Development Package</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">HLTAID003 Provide First Aid</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Mental Health First Aid</NavDropdown.Item>
+        <Nav.Link style={{ color:'white' }} as={Link}  to='/services' >Services</Nav.Link>
           
           
-        </NavDropdown>
         <NavDropdown
           id="nav-dropdown-dark-example"
           title={
