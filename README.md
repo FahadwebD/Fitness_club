@@ -1,6 +1,6 @@
 # Fitness House Club
 
-This project is live on netlify [Create React App](https://fitnesshouse-club-fahad.netlify.app/).
+This project is live on netlify [Fitness House](https://fitnesshouse-club-fahad.netlify.app/).
 
 ## Project Summary
 
