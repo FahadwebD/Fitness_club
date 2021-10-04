@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
 import backg from '../../images/h2.jpg';
 import start from '../../images/First-Step-Image.webp';
+import two from '../../images/Why-Work-in-Fitness.webp'
 
 const AboutUs = () => {
     return (
@@ -65,7 +66,7 @@ Not only are we committed to graduating the most ready-made fitness professional
                     
                 </div>
                 <div >
-                    <img style={{height:500 , width:500}} src={start} alt="" />
+                    <img style={{height:500 , width:500}} src={two} alt="" />
                 </div>
             </div>
             <div className='mt-2 p-5 '>
