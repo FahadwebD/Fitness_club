@@ -4,68 +4,69 @@
         "course": "Personal Trainer Course",
         "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
         "description": "It all starts with choosing a quality training provider to help you get certified and job-ready as you enter the fitness industry.",
-        "fee": 956,        
+        "fee": 56,        
         "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
     },
     {
-        "id": "B002RL8IYA",
-        "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
+        "id": "B002RL8IYB",
+        "course": "Fitness Course",
+        "certificate":"SIS30315 Certificate III in Fitness",
+        "description": "The Certificate III in Fitness will provide you with the foundation skills and knowledge you need to turn your passion for fitness into a profession.",
+        "fee": 96,        
+        "img": "https://blog-assets.shawacademy.com/uploads/2018/07/shutterstock_1043370892.jpg"
     },
     {
-        "id": "B002RL8IYA",
+        "id": "B002RL8IYC",
         "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
-    },
-    
-    {
-        "id": "B002RL8IYA",
-        "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
-    },
-    {
-        "id": "B002RL8IYA",
-        "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
+        "certificate":"SIS40215 Certificate IV in Fitness",
+        "description": "This higher level qualification will open up an array of career possibilities not currently available when holding the Certificate III in Fitness only.",
+        "fee": 76,        
+        "img": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2017_36/2144546/170905-working-out-group-ac-512p.jpg"
     },
     
     {
-        "id": "B002RL8IYA",
+        "id": "B002RL8IYD",
         "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
+        "certificate":"LEAN Nutrition Tech & Coaching",
+        "description": "AFA has teamed up with the experts at LEAN Nutrition Tech on their revolutionary new meal planning platform, Health & Physical By LEAN.",
+        "fee": 20,        
+        "img": "https://fitness.edu.au/wp-content/uploads/2021/08/Lean.png"
     },
     {
-        "id": "B002RL8IYA",
+        "id": "B002RL8IYE",
         "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
+        "certificate":"Optimising Recovery After Exercise",
+        "description": "Wondering what the best form of recovery after exercise is?",
+        "fee": 66,        
+        "img": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/12102/images/ZBniI7uRHG3ibOEzgSAp_Copy_of_Neon_Green_Gradient_Fitness_YouTube_Thumbnail_3.jpg"
     },
     
     {
-        "id": "B002RL8IYA",
+        "id": "B002RL8IYF",
         "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
+        "certificate":"CEC Courses & Professional Development Workshops",
+        "description": "Gain valuable CEC points to put towards your Fitness Bangladesh Registration.",
+        "fee": 36,        
+        "img": "https://cec.fiu.edu/wp-content/uploads/2018/12/fiu-professional-development-workshops-and-events-1000x667.jpg"
+    },
+    {
+        "id": "B002RL8IYG",
+        "course": "Personal Trainer Course",
+        "certificate":"Professional Development Package",
+        "description": "These additional certificates have been put together to give you a more efficient way to achieve your 20 CECs required for Fitness Bangladesh registration.",
+        "fee": 26,        
+        "img": "https://cprplus.co/wp-content/uploads/2015/07/Personal-Trainers-need-CPR-training.jpg"
+    },
+    
+    {
+        "id": "B002RL8IYH",
+        "course": "Personal Trainer Course",
+        "certificate":"HLTAID003 Provide First Aid",
+        "description": "First Aid Training is a requirement for employment in many workplaces and is also a requirement of the SIS30315 Certificate III in Fitness.",
+        "fee": 99,        
+        "img": "https://www.epti.co.uk/images/2020/09/04/first-aid-1.jpeg"
     }
+
     
     
     

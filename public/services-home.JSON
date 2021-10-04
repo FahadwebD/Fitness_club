@@ -1,38 +1,37 @@
 [
     {
         "id": "B002RL8IYA",
-        "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
+        "course": "Personal Trainer ",
+        "certificate":" SIS40215 Certificate IV in Fitness",
         "description": "It all starts with choosing a quality training provider to help you get certified and job-ready as you enter the fitness industry.",
-        "fee": 956,        
+        "fee": 56,        
         "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
     },
     {
-        "id": "B002RL8IYA",
-        "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
+        "id": "B002RL8IYB",
+        "course": "Fitness Course",
+        "certificate":"SIS30315 Certificate III in Fitness",
+        "description": "The Certificate III in Fitness will provide you with the foundation skills and knowledge you need to turn your passion for fitness into a profession.",
+        "fee": 96,        
+        "img": "https://blog-assets.shawacademy.com/uploads/2018/07/shutterstock_1043370892.jpg"
     },
     {
-        "id": "B002RL8IYA",
-        "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
+        "id": "B002RL8IYC",
+        "course": "Personal Trainer ",
+        "certificate":"SIS40215 Certificate IV in Fitness",
+        "description": "This higher level qualification will open up an array of career possibilities not currently available when holding the Certificate III in Fitness only.",
+        "fee": 76,        
+        "img": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2017_36/2144546/170905-working-out-group-ac-512p.jpg"
     },
     
     {
-        "id": "B002RL8IYA",
-        "course": "Personal Trainer Course",
-        "certificate":"SIS30315 Certificate III in Fitness & SIS40215 Certificate IV in Fitness",
-        "description": "Take your career to the next level and turn your passion for fitness into the role of a fully-qualified Personal Trainer.",
-        "fee": 956,        
-        "img": "https://www.thetrainingroom.com/TheTrainingRoom/media/Courses/Health%20and%20Fitness/health-and-fitness-bootcamp-workshop.jpg"
+        "id": "B002RL8IYD",
+        "course": "Personal Trainer ",
+        "certificate":"LEAN Nutrition Tech & Coaching",
+        "description": "AFA has teamed up with the experts at LEAN Nutrition Tech on their revolutionary new meal planning platform, Health & Physical By LEAN.",
+        "fee": 20,        
+        "img": "https://fitness.edu.au/wp-content/uploads/2021/08/Lean.png"
     }
-    
     
     
 ]
