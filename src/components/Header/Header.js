@@ -3,16 +3,14 @@ import { Button, Container, Form, Nav, Navbar, NavDropdown } from 'react-bootstr
 import { faHome  } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
-import { faFacebook , faInstagram , faTwitter } from "@fortawesome/free-brands-svg-icons"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import f from '../../images/headerlogo.png'
 
 
 const Header = () => {
     const element = <FontAwesomeIcon icon={faHome} />
-    const facebook = <FontAwesomeIcon icon={faFacebook} />
-    const insta = <FontAwesomeIcon icon={faInstagram} />
-    const twitter = <FontAwesomeIcon icon={faTwitter} />
+  
     return (
         <div>
             <Navbar bg="dark" fixed="top" expand="lg">
@@ -54,9 +52,7 @@ const Header = () => {
         </NavDropdown>
         <Nav.Link style={{ color:'white' }} href="#action2">Employment</Nav.Link>
         <Nav.Link style={{ color:'white' }} href="#action2">Blogs</Nav.Link>
-        <Nav.Link style={{ color:'white' }} href="#action2">{facebook}</Nav.Link>
-        <Nav.Link style={{ color:'white' }} href="#action2">{insta}</Nav.Link>
-        <Nav.Link style={{ color:'white' }} href="#action2">{twitter}</Nav.Link>
+        
         
       </Nav>
       <Form  className="d-flex">

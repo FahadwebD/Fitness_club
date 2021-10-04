@@ -9,7 +9,7 @@ const ServicesCard = (props) => {
         <div>
             <Col>
       <Card>
-        <Card.Img variant="top" style={{height:300}} src={img} />
+        <Card.Img variant="left" style={{height:300}} src={img} />
         <Card.Body>
           
           <h3>{course}</h3>

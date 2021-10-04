@@ -1,11 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import backg from '../../images/homebg.jpg'
-import { Button, Col,  Container,  Row } from 'react-bootstrap';
+import { Button, Col,  Image,  Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight  } from '@fortawesome/free-solid-svg-icons';
-import logo from '../../images/headerlogo.png'
+import { faCheck  } from '@fortawesome/free-solid-svg-icons';
+
+import logo1 from '../../images/attachment_117218919-removebg-preview.png';
+import logo2 from '../../images/attachment_117769297-removebg-preview.png';
+import logo3 from '../../images/attachment_126946868-removebg-preview.png';
+import logo4 from '../../images/attachment_78330871-removebg-preview.png';
 import ServicesHome from '../ServicesHome/ServicesHome';
-import Footer from '../Footer/Footer';
+import start from '../../images/First-Step-Image.webp';
+import why from '../../images/Why-Work-in-Fitness.webp';
+
 
 const Home = () => {
 
@@ -16,6 +23,7 @@ const Home = () => {
         .then(data =>  setHomeService(data))
     } ,[])
     const rightC = <FontAwesomeIcon icon={faCaretRight } />
+    const check = <FontAwesomeIcon icon={faCheck } />
     return (
         <div>
             <div className=' d-flex flex-column justify-content-center align-items-center' style={{ 
@@ -56,10 +64,10 @@ const Home = () => {
            </div>
            <div className='container'>
            <Row md={4}>
-                 <Col><img style={{height:100 , width:200}} src={logo} alt="" /></Col>
-                 <Col><img style={{height:100 , width:200}} src={logo} alt="" /></Col>
-                 <Col><img style={{height:100 , width:200}} src={logo} alt="" /></Col>
-                 <Col><img style={{height:100 , width:200}} src={logo} alt="" /></Col>
+                 <Col><img style={{height:110 , width:200}} src={logo1} alt="" /></Col>
+                 <Col><img style={{height:110 , width:200}} src={logo2} alt="" /></Col>
+                 <Col><img style={{height:110 , width:200}} src={logo3} alt="" /></Col>
+                 <Col><img style={{height:110 , width:200}} src={logo4} alt="" /></Col>
                    
                 
             </Row>
@@ -68,7 +76,7 @@ const Home = () => {
            
             
          </div>
-         <div className='container mb-5'>
+         <div className=' mb-5 bg-light'>
              <h2>CAREER PATHWAYS</h2>
              
             <Row xs={1} md={4} className="g-2">
@@ -80,6 +88,86 @@ const Home = () => {
                 }
             </Row>
             </div>
+            <div className='d-flex flex-row  align-items-center' >
+                <div >
+                    <img style={{height:500 , width:600}} src={start} alt="" />
+                </div>
+                <div>
+                    <h2>TAKE THE FIRST STEP TO YOUR NEW CAREER IN FITNESS!</h2>
+                    <p>Stop thinking and start doing! Turn your dream into a reality and fulfil your ambition of working in the fitness industry. Make the best decision of your life that will help establish a successful future!</p>
+                    <Button className='btn-lg '>Speak To One Of Our Career Advisor {rightC}</Button>
+
+                </div>
+            </div>
+            <div className='  d-flex flex-row  align-items-center mt-2' >
+                
+                <div  className='container p-2'>
+                    <h2>THERE ARE SO MANY GREAT REASONS TO WORK IN FITNESS</h2>
+                    <div className='d-flex flex-column'>
+                        <div className='d-flex align-items-center' >
+                        <Image className='bg-dark' src={logo2} style={{height:50 , width:50}} roundedCircle />
+                            <h2>one</h2>
+                        </div>
+                        <div className='d-flex align-items-center' >
+                        <Image className='bg-dark' src={logo1} style={{height:50 , width:50}} roundedCircle />
+                            <h2>one</h2>
+                        </div>
+                        <div className='d-flex align-items-center' >
+                        <Image className='bg-dark' src={logo3} style={{height:50 , width:50}} roundedCircle />
+                            <h2>one</h2>
+                        </div>
+                        <div className='d-flex align-items-center' >
+                        <Image className='bg-dark' src={logo4} style={{height:50 , width:50}} roundedCircle />
+                            <h2>one</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div >
+                    <img style={{height:500 , width:600}} src={why} alt="" />
+                </div>
+            </div>
+            <div className='  d-flex flex-row  align-items-center mt-2' >
+            <div >
+                    <img style={{height:500 , width:600}} src={why} alt="" />
+                </div>
+                
+                <div  className='container p-2'>
+                    <h2>THERE ARE SO MANY GREAT REASONS TO WORK IN FITNESS</h2>
+                    <div className='d-flex flex-column'>
+                        <div className='d-flex ' >
+                        
+                            <p>{check}Flexible payment options (from $50 per week)</p>
+                        </div>
+                        <div className='d-flex ' >
+                        
+                        <p>{check}Low upfront costs (starting with just a $100 deposit)</p>
+                        </div>
+                        <div className='d-flex ' >
+                      
+                        <p>{check}Readily available support from our team of world-class educators</p>
+                        </div>
+                        <div className='d-flex ' >
+                      
+                        <p>{check}Course material constantly updated by our dedicated course development team</p>
+                        </div>
+                        <div className='d-flex ' >
+                      
+                        <p>{check}Course material constantly updated by our dedicated course development team</p>
+                        </div>
+                        <div className='d-flex ' >
+                      
+                        <p>{check}Course material constantly updated by our dedicated course development team</p>
+                        </div>
+                        <div className='d-flex ' >
+                        <Button className='btn-lg '>Speak To One Of Our Career Advisor {rightC}</Button>
+                        </div>
+                    </div>
+
+                </div>
+               
+            </div>
+           
            
                 
  
