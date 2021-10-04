@@ -14,7 +14,7 @@ const AboutUs = () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             width: "100%",
-        height: '75vh',
+            height: '50vh',
     
             
           }}>

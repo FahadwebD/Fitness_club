@@ -8,6 +8,7 @@ import { BrowserRouter , Switch ,Route } from 'react-router-dom';
 import Services from './components/Services/Services';
 import AboutUs from './components/AboutUS/AboutUs';
 import NotFound from './components/NotFound/NotFound';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
       </Route>
       <Route exact path ='/aboutus'>
         <AboutUs></AboutUs>
+      </Route>
+      <Route exact path ='/blogs'>
+     <Blog></Blog>
       </Route>
       <Route  path='/*'>
         <NotFound></NotFound>

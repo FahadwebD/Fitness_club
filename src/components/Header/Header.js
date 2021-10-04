@@ -28,7 +28,7 @@ const Header = () => {
         
         <Nav.Link style={{ color:'white' }} as={Link}  to='/services' >Services</Nav.Link>
           
-          
+        <Nav.Link style={{ color:'white' }} as={Link}  to='/blogs' >Blogs</Nav.Link>
         <NavDropdown
           id="nav-dropdown-dark-example"
           title={
@@ -50,8 +50,9 @@ const Header = () => {
           
           
         </NavDropdown>
+        
         <Nav.Link style={{ color:'white' }} href="#action2">Employment</Nav.Link>
-        <Nav.Link style={{ color:'white' }} href="#action2">Blogs</Nav.Link>
+       
         
         
       </Nav>
