@@ -15,7 +15,7 @@ const Footer = () => {
              <Container >
         <Row>
         <Col xs={5} md={4}>
-        <img style={{height:200 , width:190 }} src={f_logo} alt="" />
+        <img className='img-fluid' style={{height:200 }} src={f_logo} alt="" />
       </Col>
    <Col xs={7} md={8}>
      <p>Established in 1993, the Australian Fitness Academy specialises in the delivery of nationally accredited fitness and personal training qualifications and have assisted thousands of graduates to create rewarding careers as exercise professionals.</p>

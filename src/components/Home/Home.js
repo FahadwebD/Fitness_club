@@ -95,51 +95,65 @@ const Home = () => {
                 }
             </Row>
             </div>
-            <div className='d-flex flex-row  align-items-center' >
-                <div >
-                    <img style={{height:500 , width:600}} src={start} alt="" />
-                </div>
-                <div>
+            <div className='container mt-4' >
+                <Row>
+               
+                    <Col xs={12} sm={6}>
+                    <img className="img-fluid" style={{height:500 }} src={start} alt="" />
+                    </Col>
+                
+             
+                    <Col xs={12} sm={6}> 
                     <h2>TAKE THE FIRST STEP TO YOUR NEW CAREER IN FITNESS!</h2>
                     <p>Stop thinking and start doing! Turn your dream into a reality and fulfil your ambition of working in the fitness industry. Make the best decision of your life that will help establish a successful future!</p>
                     <Button className='btn-lg '>Speak To One Of Our Career Advisor {rightC}</Button>
+                    </Col> 
 
-                </div>
+                </Row>
             </div>
-            <div className='  d-flex flex-row  align-items-center mt-2' >
+            <div className=' container mt-4' >
+            <Row>
                 
-                <div  className='container p-2'>
+                <Col xs={12} sm={6}>
                     <h2>THERE ARE SO MANY GREAT REASONS TO WORK IN FITNESS</h2>
                     <div className='d-flex flex-column'>
                         <div className='d-flex align-items-center m-3 ' >
                         <Image className='bg-dark' src={logo1} style={{height:50 , width:50}} roundedCircle />
-                            <h4 className='p-2'>Be your own boss</h4>
+                            <h6 className='p-2'>Be your own boss</h6>
                         </div>
                         <div className='d-flex align-items-center m-3' >
                         <Image className='bg-dark' src={logo2} style={{height:50 , width:50}} roundedCircle />
-                            <h4 className='p-2'>Stay fit on the job, and do what you love</h4>
+                            <h6 className='p-2'>Stay fit on the job, and do what you love</h6>
                         </div>
                         <div className='d-flex align-items-center m-3' >
                         <Image className='bg-dark' src={logo3} style={{height:50 , width:50}} roundedCircle />
-                            <h4 className='p-2'>Suits career changers or those coming back to work</h4>
+                            <h6 className='p-2'>Suits career changers or those coming back to work</h6>
                         </div>
                         <div className='d-flex align-items-center m-3' >
                         <Image className='bg-dark' src={logo4} style={{height:50 , width:50}} roundedCircle />
-                            <h4 className='p-2'>Suits career changers or those coming back to work</h4>
+                            <h6 className='p-2'>Flexibility of part-time or full-time jobs</h6>
                         </div>
                     </div>
+                    </Col> 
 
-                </div>
-                <div >
-                    <img style={{height:500 , width:600}} src={why} alt="" />
-                </div>
+              
+               
+                <Col xs={12} sm={6}>
+                    <img className="img-fluid" style={{height:500 }} src={why} alt="" />
+                    </Col> 
+               
+                </Row>
             </div>
-            <div className='  d-flex flex-row  align-items-center mt-3' >
-            <div >
-                    <img style={{height:500 , width:600}} src={three} alt="" />
-                </div>
+            <div className='  container mt-4' >
+            <Row>
+           
+            <Col xs={12} sm={6}>
+                    <img className="img-fluid" style={{height:500 }} src={three} alt="" />
+                    </Col> 
                 
-                <div  className='container p-3'>
+                
+                
+                    <Col xs={12} sm={6}>
                     <h2>THERE ARE SO MANY GREAT REASONS TO WORK IN FITNESS</h2>
                     <div className='d-flex flex-column'>
                         <div className='d-flex ' >
@@ -170,9 +184,10 @@ const Home = () => {
                         <Button className='btn-lg '>Speak To One Of Our Career Advisor {rightC}</Button>
                         </div>
                     </div>
+                     </Col> 
 
-                </div>
                
+                </Row>
             </div>
            
            

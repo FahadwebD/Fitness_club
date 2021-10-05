@@ -36,39 +36,45 @@ We are committed to graduating the industry’s most knowledgeable and job-ready
             </div>
 
 
-            <div>
-            <div className='d-flex flex-row  align-items-center' >
-                <div >
-                    <img style={{height:500 , width:500}} src={start} alt="" />
-                </div>
-                <div>
-                    <h2>STUDYING WITH AUSTRALIAN FITNESS ACADEMY</h2>
+            <div className='container'>
+           
+            <Row>
+                
+                    <Col xs={12} sm={6}>
+                    <img  className="img-fluid" style={{height:500 }} src={start} alt="" />
+                    </Col>
+               
+               
+                    <Col xs={12} sm={6}>
+                    <h2>STUDYING WITH BANGLADESHI FITNESS ACADEMY</h2>
                     <br />
                     <br />
                     <br />
                     <p>We cater to all learning styles by offering students the choice to study either online or face-to-face. These flexible study options ensure our students can complete their qualifications, while also maintaining regular work and other lifestyle commitments.
 
 Our dedicated Student Support team is committed to assisting our students through every step of the learning journey. No matter what mode of study you choose, our team are always available to provide you with the assistance you need to gain your qualifications. We are only ever a phone call, email or face-to-face chat away!</p>
+                    </Col>
+                
+                </Row>
+            
+            </div>
+            <div className='container'>
+            <Row>
+                
+                <Col xs={12} sm={6}>
+                <h2>"<h2>In the process of becoming the leading fitness educator in Bangladesh, we have built a strong network of industry connections and have developed partnerships with a number of key fitness businesses.</h2>"</h2>
                     
-                </div>
-            </div>
-            </div>
-            <div className='d-flex flex-row  align-items-center mt-4' >
-             
-            <div>
-                    <h2>"<h2>In the process of becoming the leading fitness educator in Australia, we have built a strong network of industry connections and have developed partnerships with a number of key fitness businesses.</h2>"</h2>
-                    <br />
-                    <br />
-                    <br />
                     <p>Our broad-reaching industry network helps connect our students directly with employers and opens up a wide range of employment opportunities upon completion of the course.
 
 Not only are we committed to graduating the most ready-made fitness professionals in the industry, we also specialise in the development and delivery of Professional Development Courses. These Short Courses and Workshops aim to ensure fitness professionals continue to enhance their personal training skills, keep their knowledge up-to-date and gain valuable CEC points to put towards their industry registration.</p>
-                    
-                </div>
-                <div >
-                    <img style={{height:500 , width:500}} src={two} alt="" />
-                </div>
+                </Col>
+                <Col xs={12} sm={6}>
+                <img className="img-fluid" style={{height:500 }} src={two} alt="" />
+                </Col>
+            
+            </Row>
             </div>
+           
             <div className='mt-2 p-5 '>
             <h2>OUR QUALITY STANDARDS</h2>
             <hr />
