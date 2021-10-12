@@ -9,6 +9,7 @@ import Services from './components/Services/Services';
 import AboutUs from './components/AboutUS/AboutUs';
 import NotFound from './components/NotFound/NotFound';
 import Blog from './components/Blog/Blog';
+import Shop from './components/Shop/Shop';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
       </Route>
       <Route exact path ='/blogs'>
      <Blog></Blog>
+      </Route>
+      <Route exact path ='/shop'>
+     <Shop></Shop>
       </Route>
       <Route  path='/*'>
         <NotFound></NotFound>

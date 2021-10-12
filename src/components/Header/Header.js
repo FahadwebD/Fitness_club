@@ -15,11 +15,11 @@ const Header = () => {
         <div>
             <Navbar bg="dark" fixed="top" expand="lg">
   <Container fluid>
-    <Navbar.Brand  style={{marginLeft:4}} ><img style={{height:80 , width:190 }}  src={f} alt="" /></Navbar.Brand>
+    <Navbar.Brand   ><img style={{height:80 , width:190 }}  src={f} alt="" /></Navbar.Brand>
     <Navbar.Toggle  aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
-        className="me-auto my-2 my-lg-2"
+        className="me-auto "
         style={{ maxHeight: '100px'  }}
         navbarScroll
       >
@@ -51,14 +51,14 @@ const Header = () => {
           
         </NavDropdown>
         
-        <Nav.Link style={{ color:'white' }} href="#action2">Employment</Nav.Link>
+        <Nav.Link style={{ color:'white' }} as={Link} to='/shop'>Shop</Nav.Link>
        
         
         
       </Nav>
       <Form  className="d-flex">
         
-        <Button className="p-3">Enquire Now</Button>
+        <Button className="p-2 ">Enquire Now</Button>
         
 
       </Form>

@@ -42,10 +42,10 @@ const Home = () => {
           }}>
        
             <div>
-                <h2 className='text-white fs-1 fw-bold'>GET ON THE FAST TRACK TO YOUR FITNESS <span >CAREER</span></h2>
+                <h2 className='text-white fs-1 fw-bold'>GET ON THE FAST TRACK TO YOUR FITNESS CAREER</h2>
             </div>
             <div>
-                <Button className='btn-lg '>Speak To One Of Our Career Advisor {rightC}</Button>
+                <Button className='btn '>Speak To One Of Our Career Advisor {rightC}</Button>
             </div>
         
           </div>
