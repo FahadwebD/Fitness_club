@@ -20,7 +20,7 @@ const Products = (props) => {
       </Card.Text>
       <div className='d-flex justify-content-around'>
         <Button>Details</Button>
-        <Button  onClick={() => props.addToCart(props.data.id)}>Buy Now</Button>
+        <Button  onClick={() => props.addToCart(props.data)}>Buy Now</Button>
 
     </div>
     </Card.Body>

@@ -1,6 +1,14 @@
+.search-container{
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    line-height: 40px;
+}
+.search-container input{
+    width: 75%;
+}
 .shop{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     
 }
