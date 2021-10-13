@@ -10,6 +10,7 @@ import AboutUs from './components/AboutUS/AboutUs';
 import NotFound from './components/NotFound/NotFound';
 import Blog from './components/Blog/Blog';
 import Shop from './components/Shop/Shop';
+import OrderReview from './components/OrderReview/OrderReview';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
       </Route>
       <Route exact path ='/shop'>
      <Shop></Shop>
+      </Route>
+      <Route exact path ='/order'>
+     <OrderReview></OrderReview>
       </Route>
       <Route  path='/*'>
         <NotFound></NotFound>

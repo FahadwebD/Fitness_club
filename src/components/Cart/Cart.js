@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Offcanvas , Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import CartCanvas from '../CartCanvas/CartCanvas';
 
 
@@ -28,7 +29,7 @@ const Cart = (props) => {
      
 <Offcanvas show={show} onHide={handleClose} >
   <Offcanvas.Header closeButton>
-    <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+    <Offcanvas.Title>Cart</Offcanvas.Title>
   </Offcanvas.Header>
   <Offcanvas.Body>
    {
@@ -39,7 +40,10 @@ const Cart = (props) => {
         </CartCanvas>)
    }
   </Offcanvas.Body>
+ 
+  {props.children}
 </Offcanvas>
+
     </div>
     );
 };

@@ -1,12 +1,12 @@
 
 import { useEffect, useState } from 'react';
-import { Offcanvas , Button } from 'react-bootstrap';
-import useCart from '../../hooks/useCart';
-import useProducts from '../../hooks/useProducts';
-import { addToDb } from '../../utilities/fakedb';
+import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router';
+import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Products from '../Products/Products';
 import './Shop.css';
+import {Button} from 'react-bootstrap'
 
 const Shop = () => {
     
@@ -14,6 +14,13 @@ const Shop = () => {
     const [products ,setProducts] = useState([]);
     const [cart ,setCart] = useState([]);
     const [displayProducts, setDisplayProducts] = useState([]);
+    const history = useHistory();
+    
+    const handleProceedToOrder = () => {
+        // setCart([]);
+        // clearTheCart();
+        history.push('/order');
+    }
     
 
 
@@ -26,8 +33,25 @@ const Shop = () => {
             });
     }, []);
 
+    useEffect(() => {
+        if (products.length) {
+            const savedCart = getStoredCart();
+            const storedCart = [];
+            for (const id in savedCart) {
+                const addedProduct = products.find(product => product.id === id);
+                if (addedProduct) {
+                    const quantity = savedCart[id];
+                    addedProduct.quantity = quantity;
+                    storedCart.push(addedProduct);
+                }
+            }
+            setCart(storedCart);
+        }
+    }, [products])
+
+
     const addToCart = (products)=>{
-        console.log(products)
+      
         const storedItem =[...cart,products]
         setCart(storedItem)
         
@@ -64,8 +88,14 @@ const Shop = () => {
             </div>
             <div>
                 {
-                    <Cart cart={cart}></Cart>
+                    <Cart
+                     cart={cart} 
+                    >
+                         <Button  onClick={handleProceedToOrder} className="btn-regular">Proceed to Order</Button>
+                    </Cart>
+                    
                 }
+               
             </div>
           
            
