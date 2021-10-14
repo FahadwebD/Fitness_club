@@ -10,6 +10,7 @@ import AboutUs from './components/AboutUS/AboutUs';
 import NotFound from './components/NotFound/NotFound';
 import Blog from './components/Blog/Blog';
 import Shop from './components/Shop/Shop';
+import Detail from './components/Detail/Detail'
 import OrderReview from './components/OrderReview/OrderReview';
 
 function App() {
@@ -38,6 +39,9 @@ function App() {
       </Route>
       <Route exact path ='/order'>
      <OrderReview></OrderReview>
+      </Route>
+      <Route exact path ='/detail/:did'>
+     <Detail></Detail>
       </Route>
       <Route  path='/*'>
         <NotFound></NotFound>
